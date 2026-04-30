@@ -30,8 +30,7 @@ def main():
         print("1. Add assignment")
         print("2. View assignments")
         print("3. Exit")
-
-        choice = input("Choose an option: ")
+choice = input("Choose an option (1-3): ")
 
         if choice == "1":
             add_assignment()
