@@ -38,7 +38,7 @@ def main():
         elif choice == "2":
             view_assignments()
         elif choice == "3":
-            print("Goodbye!")
+            print("Exiting program... Goodbye!")
             break
         else:
             print("Invalid choice. Try again.\n")
